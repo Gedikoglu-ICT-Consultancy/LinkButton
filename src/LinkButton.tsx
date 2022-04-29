@@ -8,9 +8,25 @@ import { LinkButtonProps } from "../typings/LinkButtonProps";
 
 export interface CustomStyle extends Style {
     container: ViewStyle;
-    label: TextStyle;
+    text: TextStyle;
 }
 
-export function LinkButton({ style, caption, link, linkUrl, linkAction }: LinkButtonProps<CustomStyle>): ReactElement {
-    return <HyperLinkText caption={caption} link={link} linkUrl={linkUrl} linkAction={linkAction} style={style} />;
+export function LinkButton({
+    style,
+    caption,
+    link,
+    linkUrl,
+    linkAction,
+    lines
+}: LinkButtonProps<CustomStyle>): ReactElement {
+    return (
+        <HyperLinkText
+            caption={caption}
+            link={link}
+            linkUrl={linkUrl}
+            linkAction={linkAction}
+            lines={lines}
+            style={style}
+        />
+    );
 }

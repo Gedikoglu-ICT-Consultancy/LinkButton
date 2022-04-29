@@ -5,7 +5,7 @@
             <widgetFile path="LinkButton.xml"/>
         </widgetFiles>
         <files>
-            <file path="gedikoglu ict consultancy/linkbutton"/>
+            <file path="com.tgict/linkbutton"/>
         </files>
     </clientModule>
 </package>

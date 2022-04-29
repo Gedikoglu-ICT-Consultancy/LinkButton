@@ -1,33 +1,31 @@
 {
-  "name": "linkbutton",
-  "widgetName": "LinkButton",
-  "version": "1.0.0",
-  "description": "Button rendered as Link",
-  "copyright": "@ Gedikoglu ICT Consultancy 2022. All rights reserved.",
-  "author": "Taner",
-  "engines": {
-    "node": ">=12"
-  },
-  "license": "Apache-2.0",
-  "config": {
-    "projectPath": "./tests/testProject"
-  },
-  "packagePath": "gedikoglu ict consultancy",
-  "scripts": {
-    "start": "pluggable-widgets-tools start:native",
-    "build": "pluggable-widgets-tools build:native",
-    "lint": "pluggable-widgets-tools lint",
-    "lint:fix": "pluggable-widgets-tools lint:fix",
-    "prerelease": "npm run lint",
-    "release": "pluggable-widgets-tools release:native"
-  },
-  "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.0.0",
-    "@types/big.js": "^6.0.2",
-    "@types/react": "~17.0.1",
-    "@types/react-native": "~0.63.52"
-  },
-  "dependencies": {
-
-  }
+    "name": "linkbutton",
+    "widgetName": "LinkButton",
+    "version": "1.2.0",
+    "description": "Button rendered as Link",
+    "copyright": "@ Gedikoglu ICT Consultancy 2022. All rights reserved.",
+    "author": "Taner",
+    "engines": {
+        "node": ">=12"
+    },
+    "license": "Apache-2.0",
+    "config": {
+        "projectPath": "./tests/testProject"
+    },
+    "packagePath": "com.tgict",
+    "scripts": {
+        "start": "pluggable-widgets-tools start:native",
+        "build": "pluggable-widgets-tools build:native",
+        "lint": "pluggable-widgets-tools lint",
+        "lint:fix": "pluggable-widgets-tools lint:fix",
+        "prerelease": "npm run lint",
+        "release": "pluggable-widgets-tools release:native"
+    },
+    "devDependencies": {
+        "@mendix/pluggable-widgets-tools": "^9.0.0",
+        "@types/big.js": "^6.0.2",
+        "@types/react": "~17.0.1",
+        "@types/react-native": "~0.63.52"
+    },
+    "dependencies": {}
 }

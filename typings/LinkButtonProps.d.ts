@@ -4,15 +4,16 @@
  * @author Mendix UI Content Team
  */
 import { CSSProperties } from "react";
-import { ActionValue } from "mendix";
+import { ActionValue, DynamicValue } from "mendix";
 
 export interface LinkButtonProps<Style> {
     name: string;
     style: Style[];
-    caption: string;
+    caption: DynamicValue<string>;
     link: boolean;
     linkUrl: string;
     linkAction?: ActionValue;
+    lines: number;
 }
 
 export interface LinkButtonPreviewProps {
@@ -24,4 +25,5 @@ export interface LinkButtonPreviewProps {
     link: boolean;
     linkUrl: string;
     linkAction: {} | null;
+    lines: number | null;
 }
