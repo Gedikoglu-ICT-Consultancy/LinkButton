@@ -1,17 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<widget id="com.tgict.linkbutton.LinkButton" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
-        supportedPlatform="Native"
-        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="com.tgict.linkbutton.LinkButton"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
     <name>Link Button</name>
     <description>Button rendered as Link</description>
-    <icon/>
+    <icon />
     <properties>
         <propertyGroup caption="General">
-            <property key="caption" type="expression" required="true">
+            <property key="caption" type="textTemplate" required="true" multiline="true">
                 <caption>Caption</caption>
                 <description>Link button caption</description>
-                <returnType type="String" />            
             </property>
             <property key="link" type="boolean" required="true" defaultValue="false">
                 <caption>Link</caption>
@@ -22,12 +27,12 @@
                 <description>Url to open when clicked</description>
             </property>
             <property key="linkAction" type="action">
-	            <caption>On click</caption>
-	            <description>Action to be performed when link button is clicked</description>
+                <caption>On click</caption>
+                <description>Action to be performed when link button is clicked</description>
             </property>
             <property key="lines" type="integer" required="true" defaultValue="0">
-	            <caption>Lines</caption>
-	            <description>Number of lines before showing elipsis</description>
+                <caption>Lines</caption>
+                <description>Number of lines before showing elipsis</description>
             </property>
         </propertyGroup>
     </properties>

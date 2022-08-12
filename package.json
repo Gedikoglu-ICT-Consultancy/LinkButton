@@ -1,7 +1,7 @@
 {
     "name": "linkbutton",
     "widgetName": "LinkButton",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Button rendered as Link",
     "copyright": "@ Gedikoglu ICT Consultancy 2022. All rights reserved.",
     "author": "Taner",
