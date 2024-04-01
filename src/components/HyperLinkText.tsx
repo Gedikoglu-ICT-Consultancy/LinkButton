@@ -21,7 +21,7 @@ const defaultStyle: CustomStyle = {
         justifyContent: "flex-start"
     },
     text: {
-        color: "#0645AD"
+        color: "#0000EE"
     }
 };
 

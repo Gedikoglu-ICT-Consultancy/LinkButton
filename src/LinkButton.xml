@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <widget
-    id="com.tgict.linkbutton.LinkButton"
+    id="com.tgict.widget.native.linkbutton.LinkButton"
     pluginWidget="true"
     needsEntityContext="true"
     offlineCapable="true"
