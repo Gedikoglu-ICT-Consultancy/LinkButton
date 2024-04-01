@@ -10,7 +10,11 @@
     xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
 >
     <name>Link Button</name>
-    <description>Button rendered as Link</description>
+    <description>
+        The LinkButton, a pluggable widget for Mendix native mobile applications, allows the creation of text-based
+        interactive buttons, configurable as hyperlinks or action triggers, enhancing user engagement and app
+        interactivity.
+    </description>
     <icon />
     <properties>
         <propertyGroup caption="General">

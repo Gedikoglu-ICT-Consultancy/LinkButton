@@ -1,8 +1,8 @@
 {
     "name": "linkbutton-native",
     "widgetName": "LinkButton",
-    "version": "1.3.0",
-    "description": "Button rendered as Link",
+    "version": "1.0.0",
+    "description": "The LinkButton, a pluggable widget for Mendix native mobile applications, allows the creation of text-based interactive buttons, configurable as hyperlinks or action triggers, enhancing user engagement and app interactivity.",
     "copyright": "© Gedikoğlu ICT Consultancy 2024. All rights reserved.",
     "author": "Taner Gedikoğlu",
     "engines": {
